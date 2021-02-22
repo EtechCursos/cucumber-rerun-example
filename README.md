@@ -1,4 +1,4 @@
-<h1 align="center">Automação Salsa Technology</h1>
+<h1 align="center">Exemplo parar reexecução de cenários de testes utilizando cucumber</h1>
 <h1 align="center">
     <a href="https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html">🔗 Java</a>
     <a href="https://www.selenium.dev/">🔗 Selenium</a>
@@ -24,7 +24,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
                                                                   
 *Instale também os plugins Gherkin e Cucumber for Java.
 
-- [Git: Para versionamento e clone do projeto](https://github.com/barbosamp/JavaBDD)
+- [Git: Para versionamento e clone do projeto](https://github.com/EtechMentoria/cucumber-rerun-example)
 
 
 ## Execução Via Terminal
@@ -33,7 +33,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 
 ```bash
 # clonando projeto do git
-$ git clone https://github.com/barbosamp/javabdd.git
+$ git clone https://github.com/EtechMentoria/cucumber-rerun-example.git
 
 # acesse a pasta do projeto
 $ cd JavaBDD
@@ -44,12 +44,8 @@ $ mvn clean install && test
 
 ## Execução via IDE
 
-```bash
-├───chromewindows    - Contém o chromeWebDriver                                 
-├───evidence         - Evidências de execução no formato DOC                                 
-│   ├───failed                                        
-│   └───passed                                        
-├───report           - Configuração do JasperReports                                 
+├───chromewindows    - Contém o chromeWebDriver                                                                   
+├───report           - Local do report html                                 
 ├───src                                               
 │   ├───main                                          
 │   │   ├───java                                      
@@ -57,27 +53,19 @@ $ mvn clean install && test
 │   │   │       └───com                               
 │   │   │           └───application                   
 │   │   │               └───name                      
+│   │   │                   ├───actions             
 │   │   │                   ├───anotation             
-│   │   │                   ├───commons             
-│   │   │                   ├───configuration         
-│   │   │                   ├───enums                 
-│   │   │                   ├───interfaces            
-│   │   │                   ├───reports               
-│   │   │                   │   ├───evidence          
-│   │   │                   │   │   └───funcionalidade
-│   │   │                   │   ├───images            
-│   │   │                   │   └───model             
-│   │   │                   └───web                   
-│   │   │                       ├───funcionalidade    - Interações com a tela.
-│   │   │                       └───pages             - Mapeamento de elementos
+│   │   │                   ├───commons         
+│   │   │                   ├───configuration                 
+│   │   │                   ├───enums                        
+│   │   │                   ├───interfaces 
+│   │   │                   ├───pages                  
+│   │   │                   ├───steps 
 │   │   └───resources     - Properties do projeto. 
 │   └───test                                          
 │       ├───java                                      
 │       │   └───br                                    
 │       │       └───com                               
-│       │           ├───appName                       
-│       │           │   └───steps                     
-│       │           │       └───web                   - Steps de testes cucumber
 │       │           └───runTest                       - Classe de execução dos testes.
 │       └───resources                                 
 │           └───features                              - Cenários de Teste no formato Gherkin
@@ -101,11 +89,6 @@ tags = {"@login"})
 
 #### [IntelliJ] Para executar o projeto basta clicar com o botão direito do mouse -> Run 'RunTest'
 
-## Evidências
-As evidêcnias dos testes estão localizadas após a execução em: 
-```bash
-JavaBdd/evidence
-```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
