@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3dd52c8-3e58-4f1c-bbef-fead5ea92c97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/web/steps/MyStepdefs.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Substep Feature" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hKatiFwvFvTlyjHTN39biKbAbL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpbar\Documents\Bootcamp\BootCamp\chrome\windows" />
+      <recent name="C:\Users\mpbar\Documents\JavaBDD - ZéDelivery\chrome\windows" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TesteCadastro.cadastoSucesso">
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.runTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.runTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.runTest.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteCadastro.cadastoSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.Selenium" />
+      <option name="MAIN_CLASS_NAME" value="br.com.Selenium.TesteCadastro" />
+      <option name="METHOD_NAME" value="cadastoSucesso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TesteCadastro.cadastoSucesso" />
+        <item itemvalue="JUnit.RunTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3dd52c8-3e58-4f1c-bbef-fead5ea92c97" name="Default Changelist" comment="" />
+      <created>1599762458276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599762458276</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="5" key="#Plugins" timestamp="1599769116945">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1599769116945" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1600889547476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1600889547476" />
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1600302634772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600302634772" />
+    <state x="279" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599768277207">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="279" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599768277207" />
+    <state x="479" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599768279248">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1599768279248" />
+    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600302658464">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1600302658464" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600204983179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600204983179" />
+    <state width="421" height="453" key="DebuggerActiveHint" timestamp="1600206691919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="421" height="453" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600206691919" />
+    <state x="464" y="119" key="FileChooserDialogImpl" timestamp="1600377505867">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="111" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600374114245" />
+    <state x="464" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600377505867" />
+    <state width="1323" height="237" key="GridCell.Tab.0.bottom" timestamp="1600889600594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600889600594" />
+    <state width="1323" height="237" key="GridCell.Tab.0.center" timestamp="1600889600594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600889600594" />
+    <state width="1323" height="237" key="GridCell.Tab.0.left" timestamp="1600889600594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600889600594" />
+    <state width="1323" height="237" key="GridCell.Tab.0.right" timestamp="1600889600594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600889600594" />
+    <state width="1315" height="277" key="GridCell.Tab.1.bottom" timestamp="1600304470275">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="277" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600304470275" />
+    <state width="1315" height="277" key="GridCell.Tab.1.center" timestamp="1600304470274">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="277" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600304470274" />
+    <state width="1315" height="277" key="GridCell.Tab.1.left" timestamp="1600304470274">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="277" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600304470274" />
+    <state width="1315" height="277" key="GridCell.Tab.1.right" timestamp="1600304470275">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1315" height="277" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600304470275" />
+    <state width="687" height="358" key="XDebugger.FullValuePopup" timestamp="1600303411067">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="687" height="358" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1600303411067" />
+    <state x="231" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600303185513">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="231" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1600303185513" />
+    <state x="390" y="0" width="703" height="728" key="find.popup" timestamp="1600294151620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="703" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600294151620" />
+    <state x="63" y="0" key="new project wizard" timestamp="1600374137420">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="63" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1600374137420" />
+    <state x="426" y="285" width="530" height="157" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1600300555747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="285" width="530" height="157" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600300555747" />
+    <state x="336" y="171" key="run.anything.popup" timestamp="1600300429156">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="336" y="171" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600300429156" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600889590080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600889590080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/web/steps/RegistroSteps.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/web/funcionalidade/RegistroFuncionalidade.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../Bootcamp/BootCamp/src/main/java/br/com/application/name/reports/evidence/GenerateEvidenceReport.java</url>
+          <line>302</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../Bootcamp/BootCamp/src/main/java/br/com/application/name/reports/evidence/GenerateEvidenceReport.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../Bootcamp/BootCamp/src/main/java/br/com/application/name/reports/evidence/GenerateEvidenceReport.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../Bootcamp/BootCamp/src/main/java/br/com/application/name/reports/evidence/Evidence.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../Bootcamp/BootCamp/src/main/java/br/com/application/name/commons/SeleniumRobot.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../Bootcamp/BootCamp/src/test/java/br/com/appName/steps/web/MinhaContaSteps.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

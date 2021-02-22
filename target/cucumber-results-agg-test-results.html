@@ -1,0 +1,239 @@
+<html>
+<head><style type="text/css">h1 {background-color:#9999CC}
+h2 {background-color:#BBBBCC}
+h3 {background-color:#DDDDFF}
+th {border:1px solid black;background-color:#CCCCDD;}
+td{border:1px solid black;}
+table {border:1px solid black;border-collapse: collapse;}
+.chart {border:0px none black;border-collapse: collapse;background-color: none;}
+.passed {background-color:lightgreen;font-weight:bold;color:darkgreen}
+.skipped {background-color:silver;font-weight:bold;color:darkgray}
+.failed {background-color:tomato;font-weight:bold;color:darkred}
+.undefined {background-color:gold;font-weight:bold;color:goldenrod}
+.known {background-color:goldenrod;font-weight:bold;color:darkred}
+.passed_description {background-color:#D0FFD0;font-weight:bold;font-style:italic;color:black}
+.failed_description {background-color:#FFA898;font-weight:bold;font-style:italic;color:black}
+.comment {font-family:courier;font-weight:normal;font-size:small;color:black;border:1px dashed black;background-color:silver}
+.tip {font-family:courier;font-weight:normal;font-size:small;color:white;background-color:black}
+OL { counter-reset: item }
+OL>LI { display: block }
+OL>LI:before { content: counters(item, ".") " "; counter-increment: item }
+
+div.header {
+    display: block; text-align: center;
+    position: running(header);
+}
+div.footer {
+    display: block; text-align: center;
+    position: running(footer);
+}
+div.content {page-break-after: always;}
+@page {
+	 size: auto;
+     @top-center {
+     	content: "Detailed Results Report";
+	    color: silver;
+	    font-size: 14px;
+     }
+     @top-right {
+     	content: date("dd MMM, yyyy hh:mm");
+	    color: silver;
+	    font-size: 8px;
+     }
+    @bottom-right {
+    	content: "Page " counter(page) " of " counter(pages) ;
+	    color: silver;
+	    font-size: 8px;
+    }
+}
+</style>
+<title>Detailed Results Report</title>
+<meta charset="UTF-8" />
+</head>
+  <body>
+    <div class='header'></div>
+    <div class='footer'></div>
+<h1>Overview</h1>
+
+
+<table>
+	<tr><th></th><th>Passed</th><th>Failed</th><th>Known</th><th>Undefined</th><th>Total</th><th>%Passed</th></tr>
+	<tr><th>Features</th>
+		<td class="passed" id="features_passed">0</td>
+		<td class="failed" id="features_failed">1</td>
+		<td class="known" id="features_known">0</td>
+		<td class="undefined" id="features_undefined">0</td>
+		<td id="features_total">1</td>
+		<td id="features_rate">
+				0%
+		</td>
+	</tr>
+	<tr><th>Scenarios</th>
+		<td class="passed" id="scenarios_passed">1</td>
+		<td class="failed" id="scenarios_failed">1</td>
+		<td class="known" id="scenarios_known">0</td>
+		<td class="undefined" id="scenarios_undefined">0</td>
+		<td id="scenarios_total">2</td>
+		<td id="scenarios_rate">
+				50%
+		</td>
+	</tr>
+	<tr><th>Steps</th>
+		<td class="passed" id="steps_passed">8</td>
+		<td class="failed" id="steps_failed">1</td>
+		<td class="known" id="steps_known">0</td>
+		<td class="undefined" id="steps_undefined">1</td>
+		<td id="steps_total">10</td>
+		<td id="steps_rate">
+				80%
+		</td>
+	</tr>
+</table>
+<div><b>Overall Duration: 0h 01m 36s</b></div>
+
+<a id="top"></a><h1>Table of Contents</h1>
+
+<ol>
+<li> <span class="failed"><a href="#feature-6cadastro-de-cliente">Cadastro de cliente</a></span>
+	<ol>
+    </ol></li>
+</ol>
+
+<h1>Detailed Results Report</h1>
+
+<table width="700px">
+	<tr class="failed"><td colspan="4"><b>Feature:</b> <a id="feature-6cadastro-de-cliente">Cadastro de cliente</a></td></tr>
+    <tr class="failed">
+    	<td><small><b>Passed:</b> 1</small></td>
+        <td><small><b>Failed:</b> 1</small></td>
+        <td><small><b>Undefined:</b> 0</small></td>
+        <td><small>Duration: 36.77s</small></td>
+    </tr>
+	<tr class="failed">
+		<td colspan="4" style="padding-left:20px">
+		<table width="100%">
+				<tr class="passed">
+					<td colspan="4">
+						<b>Cenario:</b> <a id="sc-9-cadastro-de-cliente;validar-sucesso-ao-cadastrar-um-cliente">Validar sucesso ao cadastrar um cliente</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 5</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 21.65s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">10.82s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Dado </b> que acesso a pagina inicial do sistema</td>
+                            		<td width="100">0.72s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>E </b> acesso a tela de registro</td>
+                            		<td width="100">2.74s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>E </b> preencho os dados validos de cadastro</td>
+                            		<td width="100">3.39s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Quando </b> clico no botao &quot;Register&quot;</td>
+                            		<td width="100">3.08s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Entao </b> visualizo a tela My Account</td>
+                            		<td width="100">0.06s</td>
+                        		</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">0.83s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+				<tr class="failed">
+					<td colspan="4">
+						<b>Cenario:</b> <a id="sc-cadastro-de-cliente;validar-sucesso-ao-cadastrar-um-cliente">Validar sucesso ao cadastrar um cliente</a>
+					</td>
+				</tr>
+                <tr class="failed">
+                	<td><small><b>Passed:</b> 3</small></td>
+                	<td><small><b>Failed:</b> 1</small></td>
+					<td><small><b>Undefined:</b> 1</small></td>
+					<td><small>Duration: 15.13s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">7.10s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="failed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Dado </b> que acesso a pagina inicial do sistema</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>E </b> acesso a tela de registro</td>
+                            		<td width="100">3.51s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>E </b> preencho os dados validos de cadastro</td>
+                            		<td width="100">3.77s</td>
+                        		</tr>
+                            	<tr class="failed">
+                            		<td><b>Quando </b> clico no botao &quot;Registrar&quot;</td>
+                            		<td width="100">0.01s</td>
+                        		</tr>
+    								<tr class="failed">
+										<td colspan="2">
+											<br>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&#39;Registrar&#39;]&quot;}</br><br>  (Session info: chrome=88.0.4324.182)</br><br>For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element</br><br>Build info: version: &#39;4.0.0-alpha-6&#39;, revision: &#39;5f43a29cfc&#39;</br><br>System info: host: &#39;DESKTOP-PFU7T82&#39;, ip: &#39;172.18.160.1&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;1.8.0_271&#39;</br><br>Driver info: org.openqa.selenium.chrome.ChromeDriver</br><br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mpbar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}</br><br>Session ID: 8fbbc5772d5e7ec1802f9409f77aeef6</br><br>*** Element info: {Using=xpath, value=//*[text()=&#39;Registrar&#39;]}</br><br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</br><br>	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</br><br>	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</br><br>	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)</br><br>	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)</br><br>	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)</br><br>	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)</br><br>	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)</br><br>	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)</br><br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)</br><br>	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)</br><br>	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)</br><br>	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)</br><br>	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)</br><br>	at br.com.application.name.commons.SeleniumRobot.clickByText(SeleniumRobot.java:171)</br><br>	at br.com.application.name.steps.CreateAccountSteps.clicoNoBotao(CreateAccountSteps.java:23)</br><br>	at ✽.Quando clico no botao &quot;Registrar&quot;(Cadastro.feature:23)</br><br></br>
+										</td>
+									</tr>
+                            	<tr class="skipped">
+                            		<td><b>Entao </b> visualizo a tela My Account</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">0.73s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+		</table>
+	</td></tr><tr><td colspan="5"></td></tr>
+</table>
+
+	</body>
+</html>

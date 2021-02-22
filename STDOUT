@@ -1,0 +1,82 @@
+#language: pt
+#encoding: UTF-8
+#author: Marcos Barbosa
+Funcionalidade: Cadastro de cliente
+
+  @web @cadastro
+  Cenario: Validar sucesso ao cadastrar um cliente # Cadastro.feature:9
+    Dado que acesso a pagina inicial do sistema    # InitTestStep.queAcessoAPaginaInicialDoSistema()
+    E acesso a tela de registro                    # HomeSteps.estouRealizandoOTeste()
+    E preencho os dados validos de cadastro        # CreateAccountSteps.preenchoDadosValidosCadastro()
+    Quando clico no botao "Register"               # CreateAccountSteps.clicoNoBotao(String)
+    Entao visualizo a tela My Account              # MyAccountSteps.visualizoATelaDeMyAccount()
+
+  @web @cadastro
+  Cenario: Validar sucesso ao cadastrar um cliente # Cadastro.feature:18
+    Dado que acesso a pagina inicial do sistema    # InitTestStep.queAcessoAPaginaInicialDoSistema()
+    E acesso a tela de registro                    # HomeSteps.estouRealizandoOTeste()
+    E preencho os dados validos de cadastro        # CreateAccountSteps.preenchoDadosValidosCadastro()
+    Quando clico no botao "Registrar"              # CreateAccountSteps.clicoNoBotao(String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Registrar']"}
+        (Session info: chrome=88.0.4324.182)
+      For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+      Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+      System info: host: 'DESKTOP-PFU7T82', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mpbar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: 4544608ee14a317466b6b07fa3791c44
+      *** Element info: {Using=xpath, value=//*[text()='Registrar']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+      	at br.com.application.name.commons.SeleniumRobot.clickByText(SeleniumRobot.java:171)
+      	at br.com.application.name.steps.CreateAccountSteps.clicoNoBotao(CreateAccountSteps.java:23)
+      	at ✽.Quando clico no botao "Registrar"(Cadastro.feature:23)
+
+    Entao visualizo a tela My Account              # MyAccountSteps.visualizoATelaDeMyAccount()
+
+  @web @cadastro
+  Cenario: Validar sucesso ao cadastrar um cliente # Cadastro.feature:18
+    Dado que acesso a pagina inicial do sistema    # InitTestStep.queAcessoAPaginaInicialDoSistema()
+    E acesso a tela de registro                    # HomeSteps.estouRealizandoOTeste()
+    E preencho os dados validos de cadastro        # CreateAccountSteps.preenchoDadosValidosCadastro()
+    Quando clico no botao "Registrar"              # CreateAccountSteps.clicoNoBotao(String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Registrar']"}
+        (Session info: chrome=88.0.4324.182)
+      For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+      Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+      System info: host: 'DESKTOP-PFU7T82', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mpbar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: 8fbbc5772d5e7ec1802f9409f77aeef6
+      *** Element info: {Using=xpath, value=//*[text()='Registrar']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+      	at br.com.application.name.commons.SeleniumRobot.clickByText(SeleniumRobot.java:171)
+      	at br.com.application.name.steps.CreateAccountSteps.clicoNoBotao(CreateAccountSteps.java:23)
+      	at ✽.Quando clico no botao "Registrar"(Cadastro.feature:23)
+
+    Entao visualizo a tela My Account              # MyAccountSteps.visualizoATelaDeMyAccount()

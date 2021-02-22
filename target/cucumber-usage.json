@@ -1,0 +1,116 @@
+[
+  {
+    "source": "^que acesso a pagina inicial do sistema$",
+    "steps": [
+      {
+        "name": "que acesso a pagina inicial do sistema",
+        "aggregatedDurations": {
+          "average": 0.240734966,
+          "median": 0.000186
+        },
+        "durations": [
+          {
+            "duration": 0.7218798,
+            "location": "Cadastro.feature:11"
+          },
+          {
+            "duration": 0.000186,
+            "location": "Cadastro.feature:20"
+          },
+          {
+            "duration": 0.0001391,
+            "location": "Cadastro.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^acesso a tela de registro$",
+    "steps": [
+      {
+        "name": "acesso a tela de registro",
+        "aggregatedDurations": {
+          "average": 2.767891266,
+          "median": 2.7430576
+        },
+        "durations": [
+          {
+            "duration": 2.7430576,
+            "location": "Cadastro.feature:12"
+          },
+          {
+            "duration": 2.048953899,
+            "location": "Cadastro.feature:21"
+          },
+          {
+            "duration": 3.511662301,
+            "location": "Cadastro.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^clico no botao \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "clico no botao \"Register\"",
+        "aggregatedDurations": {
+          "average": 3.0816432,
+          "median": 3.0816432
+        },
+        "durations": [
+          {
+            "duration": 3.0816432,
+            "location": "Cadastro.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^visualizo a tela My Account$",
+    "steps": [
+      {
+        "name": "visualizo a tela My Account",
+        "aggregatedDurations": {
+          "average": 0.061478,
+          "median": 0.061478
+        },
+        "durations": [
+          {
+            "duration": 0.061478,
+            "location": "Cadastro.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^preencho os dados validos de cadastro$",
+    "steps": [
+      {
+        "name": "preencho os dados validos de cadastro",
+        "aggregatedDurations": {
+          "average": 3.273367733,
+          "median": 3.3883427
+        },
+        "durations": [
+          {
+            "duration": 3.3883427,
+            "location": "Cadastro.feature:13"
+          },
+          {
+            "duration": 2.660334599,
+            "location": "Cadastro.feature:22"
+          },
+          {
+            "duration": 3.7714259,
+            "location": "Cadastro.feature:22"
+          }
+        ]
+      }
+    ]
+  }
+]
